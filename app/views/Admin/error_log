@@ -1,0 +1,44 @@
+[30-Apr-2018 00:20:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/admin_hm.php on line 36
+[30-Apr-2018 00:20:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/admin_hm.php on line 36
+[30-Apr-2018 00:20:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/admin_hm.php on line 36
+[30-Apr-2018 00:20:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/admin_hm.php on line 36
+[30-Apr-2018 00:20:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/admin_hm.php on line 36
+[30-Apr-2018 00:20:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/admin_hm.php on line 36
+[01-May-2018 10:28:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/admin_hm.php on line 36
+[01-May-2018 10:29:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/alerts_hm.php on line 37
+[01-May-2018 10:30:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/yorum_hm.php on line 26
+[01-May-2018 10:31:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/category_hm.php on line 41
+[01-May-2018 10:33:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/contents_hm.php on line 34
+[01-May-2018 10:33:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/crud_hm.php on line 18
+[01-May-2018 10:33:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/yazarlar_hm.php on line 36
+[01-May-2018 10:33:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/video_hm.php on line 20
+[01-May-2018 10:33:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/theme_hm.php on line 23
+[01-May-2018 10:34:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/generalsettings_update_hm.php on line 313
+[01-May-2018 10:35:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/theme/ust.php on line 117
+[01-May-2018 10:35:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/theme/ust.php on line 125
+[01-May-2018 10:36:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/reklam_update_hm.php on line 34
+[01-May-2018 10:36:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/reklam_insert_hm.php on line 33
+[01-May-2018 10:36:51 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, null given in /home/ajans/public_html/app/views/Admin/home_hm.php on line 13
+[01-May-2018 10:36:51 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, null given in /home/ajans/public_html/app/views/Admin/home_hm.php on line 18
+[01-May-2018 10:36:51 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, null given in /home/ajans/public_html/app/views/Admin/home_hm.php on line 64
+[01-May-2018 10:36:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/home_hm.php on line 97
+[01-May-2018 10:36:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/home_hm.php on line 133
+[01-May-2018 10:36:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/home_hm.php on line 170
+[01-May-2018 10:36:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/home_hm.php on line 205
+[01-May-2018 10:36:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/home_hm.php on line 239
+[01-May-2018 10:36:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/home_hm.php on line 275
+[01-May-2018 10:36:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/reklam_hm.php on line 38
+[01-May-2018 10:37:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/kose_hm.php on line 26
+[01-May-2018 10:37:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/koseyazilari_hm.php on line 32
+[01-May-2018 10:37:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/news_insert_video_hm.php on line 123
+[01-May-2018 10:37:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/news_insert_hm.php on line 172
+[01-May-2018 10:37:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/news_hm.php on line 97
+[01-May-2018 10:37:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/news_hm.php on line 117
+[01-May-2018 10:37:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/news_gallery_hm.php on line 16
+[01-May-2018 10:38:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/manset_hm.php on line 3
+[01-May-2018 10:38:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/manset_hm.php on line 66
+[01-May-2018 10:38:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/manset_hm.php on line 104
+[01-May-2018 10:38:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/manset_hm.php on line 222
+[01-May-2018 10:38:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/makale_hm.php on line 37
+[03-May-2018 12:01:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/crud_hm.php on line 18
+[03-May-2018 12:01:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ajans/public_html/app/views/Admin/contents_hm.php on line 34

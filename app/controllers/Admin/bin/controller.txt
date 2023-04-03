@@ -1,0 +1,179 @@
+ class ### extends Controller{
+    public function __construct() {
+        parent::__construct();
+        
+        // Oturum Kontrolü
+        Session::checkSession();
+    }
+    
+    
+		
+    public function index(){
+		
+		   
+		$data["js"]  = array("table");
+		##editor##
+		$data["jsp"]  = array("***");
+		$data["jsp"][]  = "confirm";
+		$data["css"]  = array("table");				
+		$data["page_label"] = "### Yönetimi";
+				
+	  $model = $this->load->admin_model("###_Model");
+	
+		$data["content"]= $model->listele();	
+        $this->load->admin_view("***",$data);
+    	 
+    }
+	
+	
+	
+	
+	    public function Insert(){
+		
+		   
+		##editor##
+		$data["jsp"]  = array("***");
+		$data["css"]  = array("");
+		$data["alert"]  = "";				
+		$data["page_label"] = "### Ekle";
+	
+        $this->load->admin_view("***_insert",$data);
+    	 
+    }
+	
+	
+	
+	    public function Insert_Run(){
+		
+		   
+		##editor##
+		$data["jsp"]  = array("***");
+		$data["css"]  = array("");
+		$data["alert"]  = "";				
+		$data["page_label"] = "### Ekle";
+		
+		$model = $this->load->admin_model("###_Model");
+		 $form = $this->load->helper("Form");
+		  $alert = $this->load->helper("General");
+		  
+		  
+         
+		 *##*
+		
+		 
+		
+		if($form->submit()){	
+
+	  $last_id = $model->insert($data_array);
+	  
+	      if($last_id){ 
+		  
+			$data["alert"] = $alert->alert("### Ekleme İşlemi Başarıyla  Tamamlandı.","success");	  
+			$this->load->admin_view("***_insert",$data); 		  
+			  
+            }else{
+              
+	      $data["alert"] = $alert->alert("Bir hata Oluştu. Yeniden Deneyiniz.","danger");	  
+		 $this->load->admin_view("***_insert",$data);
+            }
+	  
+		}else{
+			
+			$hata = $form->errors;
+			$data["alert"] = $alert->alerts($hata,"danger");	  
+			$this->load->admin_view("***_insert",$data); 
+			
+			}
+    	 
+    }
+	
+	
+	
+	    public function Update(){
+		
+		$id = $this->load->helper("Url")->get_int(3); 
+		$model = $this->load->admin_model("###_Model");
+		$data["content"] = $model->Guncelle_Form($id);
+		 
+		
+		##editor##
+		$data["jsp"]  = array("***");
+		$data["css"]  = array("");
+		$data["alert"]  = "";
+		$data["id"]  = $id;				
+		$data["page_label"] = "### Güncelle";
+	
+        $this->load->admin_view("***_update",$data);
+    	 
+    }
+	
+	
+	
+		    public function Update_Run(){
+				
+			$model = $this->load->admin_model("###_Model");		
+		$id = $this->load->helper("Url")->get_int(3); 
+		$data["content"] = $model->Guncelle_Form($id);
+		
+		 
+		
+		##editor##
+		$data["css"]  = array("");
+		$data["jsp"]  = array("***");
+		$data["alert"]  = "";
+		$data["id"]  = $id;				
+		$data["page_label"] = "### Güncelle";
+	 
+		 $form = $this->load->helper("Form");
+		  $alert = $this->load->helper("General");
+		  
+		  
+        *##*
+			 
+		
+		 
+		
+		if($form->submit()){	
+
+	  $last_id = $model->update($data_array,$id);
+	  
+	      if($last_id){ 
+		  
+		    $alert->redirect(SITE_URL."Admin/###/Update/".$id);	  
+			  
+            }else{
+              
+	      $data["alert"] = $alert->alert("Bir hata Oluştu. Yeniden Deneyiniz.","danger");	  
+		$this->load->admin_view("***_update",$data);
+            }
+	  
+		}else{
+			
+			$hata = $form->errors;
+			$data["alert"] = $alert->alerts($hata,"danger");	  
+		$this->load->admin_view("***_update",$data);
+			
+			}
+    	 
+    }
+	
+	
+	//delete
+		public function Delete(){
+		$url = $this->load->helper("Form")->post("id")->isEmpty();
+		$model = $this->load->admin_model("###_Model");
+	 
+		
+		$sil = $model->delete($url->values["id"]);
+		
+		if($sil){
+		echo "1";	
+			}else{
+				echo "0";
+				}
+		
+		
+		}	  
+  
+    
+}

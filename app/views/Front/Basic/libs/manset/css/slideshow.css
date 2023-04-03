@@ -1,0 +1,81 @@
+ 
+
+/* ---------------------------------------------------- */
+/* SLIDESHOW
+/* ---------------------------------------------------- */
+#slideshow {
+width: 690px;
+z-index:9;}
+
+ 
+
+            
+
+/* ---------------------------------------------------- */
+/* SLIDESHOW > SLIDES
+/* ---------------------------------------------------- */
+#slideshow .slides {
+overflow: hidden;
+width: 688px;
+height:349px;
+background: url(../../../files/theme/orta/mansetgolge.png) no-repeat center bottom;
+z-index:9;
+ }
+
+#slideshow .slides ul {
+width: 5900px;
+z-index:9;}
+
+#slideshow .slides li {
+width: 690px;
+float: left;
+padding: 0px;
+height:334px;
+overflow:hidden;
+z-index:9;}
+
+
+#slideshow .slides .manli {
+width: 690px;
+float: left;
+padding: 0px;
+height:334px;
+overflow:hidden;
+z-index:9;}
+
+#slideshow .slides h2 {
+margin-top: 0;}
+
+/* ---------------------------------------------------- */
+/* SLIDESHOW > NAVIGATION
+/* ---------------------------------------------------- */
+#slideshow .slides-nav {
+
+clear:both;
+height:39px;
+width:690px;
+overflow:hidden;
+padding-left:6px;}
+
+#slideshow .slides-nav li {
+float: left;
+outline: none;width:36px;
+height:36px; margin:3px 3px;
+}
+
+#slideshow .slides-nav li a {
+display: block;
+padding: 0px 0px;
+width:36px;
+height:36px; overflow:hidden; }
+
+.js #slideshow .slides-nav li.on,
+.js #slideshow .slides-nav li.on a {
+	border-top:4px solid #cb2026;
+	position:relative;
+	top:-4px;
+ }
+
+.js #slideshow .slides-nav li.on a div {
+position: relative;
+opacity: 0.6;}

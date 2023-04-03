@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+.468x60{
+	width:468px;
+	height:60px;
+	overflow:hidden;
+	}
+	
+.728x90{
+	width:720px;
+	height:90px;
+	overflow:hidden;
+	}
+	
+.300x300{
+	width:300px;
+	height:300px;
+	overflow:hidden;
+	}
+	
+.300x250{
+	width:300px;
+	height:250px;
+	overflow:hidden;
+	}
+.250x250{
+	width:250px;
+	height:250px;
+	overflow:hidden;
+	}
+	
+#headerreklam{
+	position:absolute;
+	z-index:3;}
+	
+#reklam1{
+	
+		width:687px;
+	height:90px;
+	overflow:hidden;}
+

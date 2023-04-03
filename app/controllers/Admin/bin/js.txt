@@ -1,0 +1,46 @@
+// JavaScript Document
+ 
+ 
+/*----------------Delete --------------------*/	
+	
+	
+ 
+	
+$(".delete_link").click(function() {
+	
+		  data_id  = $(this).data('id');	
+		$site_url = $("#site_url").val();
+  
+                $.confirm({
+          title:"İçerik Silme Onayı",
+         text:"<b>Bu İçerik silinirse geri alınamaz devam etmek istiyor musunuz?</b>",
+                    confirm: function() {
+                        deleteconfirm(data_id,$site_url)
+                    },
+                    cancel: function() {
+                       sole("İptal Edildi   ");
+                    }
+                });
+            });
+	
+	 
+	
+	
+	
+	function deleteconfirm(data_id,$site_url){
+		
+		$.post( $site_url+"Admin/###/Delete", { id: data_id })
+  .done(function(data) {
+	  
+	  if(data==1){
+		  $("#tr_"+data_id).fadeOut();
+		  sole("Silme işlemi Başarılı"); 
+		  }else{
+			sole("Bir Hata Oluştu Tekrar Deneyiniz");  
+			  }
+	  
+    
+  });
+		
+		}
+	

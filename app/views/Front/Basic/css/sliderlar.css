@@ -1,0 +1,362 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*---resim galerisi slider css -----*/
+ 
+			.list_carouselrs1 {
+			 
+				width: 680px;
+				height:190px;
+				margin:0 auto 10px auto;
+				 padding-top:20px;
+			 
+				position:relative;
+			
+			}
+			.list_carouselrs1 ul {
+				margin: 0 0px 0 0;
+				padding: 0;
+				list-style: none;
+				display: block;
+				margin-left:0px;
+			}
+			.list_carouselrs1 li {
+			 cursor:pointer;
+				width: 148px;
+				height: 190px;
+				padding: 0;
+				margin:10px;
+				display: block;
+				float: left;
+				padding:0px;
+				position:relative;
+			
+			}
+			
+			.list_carouselrs1 li:before {
+				background:url(../files/theme/orta/glr.png) no-repeat;
+				content:' ';
+				width:32px;
+				height:32px;
+				position:absolute;
+				margin:75px 0 0 5px;
+				
+			}
+			
+				.list_carouselrs1 li:hover:before {
+				background:url(../files/theme/orta/glr.png) no-repeat;
+				content:' ';
+				width:32px;
+				height:32px;
+				position:absolute;
+				margin:60px 0 0 5px;
+				
+			}
+			
+			
+						.list_carouselrs1 li img {
+			border:2px solid #CCC;
+			}
+			
+			
+
+			.list_carouselrs1 p {
+				width: 100%;
+				margin:15px 0;
+				color:#f4f4f4;
+				font:Arial, Helvetica, sans-serif;
+				font-size:12px;
+				line-height:15px;
+			}
+			.pagerrsl {
+ 
+	max-width: 290px;
+	margin:-230px 300px 0 0px;
+	position: relative;
+	float:right;
+			}
+			.pagerrsl a {
+				margin: 0 2px;
+				color:#ccc;
+				 padding:0 3px;
+				font-size:9px;
+				 
+				text-decoration: none;
+				border-radius:8px;
+				width:16px;
+				height:16px;
+				text-indent:-1px;
+				background:#ccc;
+			 
+			}
+			.pagerrsl a.selected {
+				background:#CB2026;
+				color:#CB2026;text-indent:-1px;
+			}
+			.timer {
+				background-color: #999;
+				height: 6px;
+				width: 0px;
+			}
+	 
+					#prevrs12 {
+	float: right;
+	width:20px;
+	height:20px;
+	position:relative;
+	margin:-230px 50px 0 0;
+	 display:none;
+	background: url(../files/theme/arrows.png) no-repeat left ; cursor:pointer;
+	
+	
+			}
+			#prevrs12:hover { left:-2px;
+				}
+				
+			#nextrs12 {
+				float: right;
+			background: url(../files/theme/arrows.png) no-repeat right ;
+			width:20px;
+	height:20px; cursor:pointer;
+	position:relative;
+	margin:-230px 25px 0 0;
+	 display:none;
+			}
+			#nextrs12:hover {right:-2px;
+				}
+				
+				
+			.list_carouselrs1 li:hover #nextrs12  #prevrs12{display:block; cursor:pointer;}
+			
+	/*----------------sag haber----------------------------*/
+	
+	
+		.saghabersld {
+			 
+				width: 320px;
+				height:200px;
+				margin:0 0 0px 0;
+				 padding-top:5px;
+			 float:right;
+				position:relative;
+				 
+			
+			}
+			.saghabersld ul {
+				margin: 0 0px 0 0;
+				padding: 0;
+				list-style: none;
+				display: block;
+				margin-left:0px;
+			}
+			.saghabersld li {
+			 cursor:pointer;
+				width: 320px;
+				height: 180px;
+				padding: 0;
+				margin:0px;
+				display: block;
+				float: left;
+				padding:0px;
+			
+			}
+			
+			
+
+			.saghabersld li p {
+				width: 100%;
+				margin:-45px 0;
+				color:#f4f4f4;
+				font:Arial, Helvetica, sans-serif;
+				font-size:12px;
+				line-height:15px;
+				height:20px;
+				padding:10px;
+				background: rgba(203,32,32,0.8);
+			}
+			.pagesaghabersld {
+ 
+	max-width: 320px;
+	margin:2px 0px 0 0px;
+	position: relative;
+background:#0070BC;
+height:28px;
+overflow:hidden;
+			}
+			.pagesaghabersld a  {
+				margin:0;
+				color:#fff;				
+				font-size:14px;
+				 font-weight:700;
+				 font-family: Arial, Helvetica, sans-serif;
+				 text-decoration:none;			 
+			background:none;
+		
+			}
+ 
+			.pagesaghabersld a.selected {
+				background:#cb2026;
+				color:#1c3664;
+			}
+			.timer {
+				background-color: #999;
+				height: 6px;
+				width: 0px;
+			}
+	 
+					#prevsaghabersld {
+	float: right;
+	width:20px;
+	height:20px;
+	position:relative;
+	margin:-230px 50px 0 0;
+	 display:none;
+	background: url(../files/theme/arrows.png) no-repeat left ; cursor:pointer;
+	
+	
+			}
+			#prevsaghabersld:hover { left:-2px;
+				}
+				
+			#nextsaghabersld {
+				float: right;
+			background: url(../files/theme/arrows.png) no-repeat right ;
+			width:20px;
+	height:20px; cursor:pointer;
+	position:relative;
+	margin:-230px 25px 0 0;
+	 display:none;
+			}
+			#nextsaghabersld:hover {right:-2px;
+				}
+				
+				
+			.saghabersld li:hover #nextsaghabersld  #prevsaghabersld{display:block; cursor:pointer;}	
+			
+			
+			
+
+
+
+/*--------------------------------spot slider --------------------------------*/
+	.spotsld {
+			 
+				width: 300px;
+				height:290px;
+				margin:0 auto 0px auto;
+				 padding-top:0px;
+				position:relative;
+			
+			}
+			.spotsld ul {
+				margin: 0 0px 0 0;
+				padding: 0;
+				list-style: none;
+				display: block;
+				margin-left:0px;
+			}
+			.spotsld li {
+			 cursor:pointer;
+   			display: block;
+			float:left;
+			width:300px;
+			height:300px;
+			text-align:center;
+			margin:0;
+			overflow:hidden;
+			padding:0px;
+			padding-bottom:0px;
+			padding-top:0px;
+			
+			}
+			
+				
+
+			.spotsld li h2 {
+				width: 300px;
+				height:15px;
+				margin:5px 0 0 0px;
+				color:#000;
+				font:Arial, Helvetica, sans-serif;
+				font-size:12px;
+				line-height:15px;
+				text-align:left;
+				font-weight:bold;
+			
+				 
+			
+			}
+			
+					.spotsld li p {
+						width: 300px;
+				height:15px;
+				margin:5px 0 0 0px;
+				color:#000;
+				font:Arial, Helvetica, sans-serif;
+				font-size:12px;
+				line-height:15px;
+				text-align:left;
+				font-weight:normal;}
+			
+			
+			.pagerspt {
+ 
+	max-width: 290px;
+	margin:-60px  0 0px 10px;
+	position: relative;
+	float:left;
+			}
+			.pagerspt a {
+				margin: 0 2px;
+				color:#ccc;
+				 padding:0 3px;
+				font-size:9px;
+				 
+				text-decoration: none;
+				border-radius:8px;
+				width:16px;
+				height:16px;
+				text-indent:-1px;
+				background:#ccc;
+			 
+			}
+			.pagerspt a.selected {
+				background:#1C3664;
+				color:#1C3664;
+				text-indent:-1px;
+			}
+			.timer {
+				background-color: #999;
+				height: 6px;
+				width: 0px;
+			}
+	 
+					#prevspt {
+	float: right;
+	width:20px;
+	height:20px;
+	position:relative;
+	margin:-65px 35px 0 0;
+	 display:none;
+	background: url(../files/theme/arrows1.png) no-repeat left ; cursor:pointer;
+	
+	
+			}
+			#prevspt:hover { left:-2px;
+				}
+				
+			#nextspt {
+				float: right;
+			background: url(../files/theme/arrows1.png) no-repeat right ;
+			width:20px;
+	height:20px; cursor:pointer;
+	position:relative;
+	margin:-65px 10px 0 0;
+	 display:none;
+			}
+			#nextspt:hover {right:-2px;
+				}
+				
+				
+			.spotsld li:hover #nextspt  #prevspt{display:block; cursor:pointer;}
+ 

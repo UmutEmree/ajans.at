@@ -1,0 +1,25 @@
+<div class="col-md-9">
+       <div class="grid simple">
+                <div class="grid-title no-border">
+                  <h4><?php echo $page_label; ?></h4>
+                  
+                </div>
+                <div class="grid-body no-border">
+           
+              <form action="<?php echo SITE_URL ?>Admin/###/Update_Run/<?php echo $content["#id#"]; ?>" method="post" class="form-horizontal row-border" id="***" enctype="multipart/form-data">
+              <?php echo $alert; ?>
+
+
+              #**#
+       
+
+                <div class="bottom text-right">
+                  <button type="button" data-id="***" class="btn btn-primary submit_btn">Güncelle</button>
+                 
+                </div>
+
+              </form>
+            </div><!--/porlets-content-->
+          </div><!--/block-web--> 
+        </div><!--/col-md-6-->
+     

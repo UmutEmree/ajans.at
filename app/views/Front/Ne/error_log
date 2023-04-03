@@ -1,0 +1,18 @@
+[30-Apr-2018 00:20:02 UTC] PHP Warning:  include_once(app/helper/General.php): failed to open stream: No such file or directory in /home/ajans/public_html/app/views/Front/Ne/index.php on line 1
+[30-Apr-2018 00:20:02 UTC] PHP Warning:  include_once(): Failed opening 'app/helper/General.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ajans/public_html/app/views/Front/Ne/index.php on line 1
+[30-Apr-2018 00:20:02 UTC] PHP Fatal error:  Class 'General' not found in /home/ajans/public_html/app/views/Front/Ne/index.php on line 1
+[30-Apr-2018 00:20:02 UTC] PHP Warning:  include_once(app/helper/General.php): failed to open stream: No such file or directory in /home/ajans/public_html/app/views/Front/Ne/index.php on line 1
+[30-Apr-2018 00:20:02 UTC] PHP Warning:  include_once(): Failed opening 'app/helper/General.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ajans/public_html/app/views/Front/Ne/index.php on line 1
+[30-Apr-2018 00:20:02 UTC] PHP Fatal error:  Class 'General' not found in /home/ajans/public_html/app/views/Front/Ne/index.php on line 1
+[30-Apr-2018 00:20:02 UTC] PHP Warning:  include_once(app/helper/General.php): failed to open stream: No such file or directory in /home/ajans/public_html/app/views/Front/Ne/index.php on line 1
+[30-Apr-2018 00:20:02 UTC] PHP Warning:  include_once(): Failed opening 'app/helper/General.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ajans/public_html/app/views/Front/Ne/index.php on line 1
+[30-Apr-2018 00:20:02 UTC] PHP Fatal error:  Class 'General' not found in /home/ajans/public_html/app/views/Front/Ne/index.php on line 1
+[30-Apr-2018 00:20:23 UTC] PHP Warning:  include_once(app/helper/General.php): failed to open stream: No such file or directory in /home/ajans/public_html/app/views/Front/Ne/index.php on line 1
+[30-Apr-2018 00:20:23 UTC] PHP Warning:  include_once(): Failed opening 'app/helper/General.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ajans/public_html/app/views/Front/Ne/index.php on line 1
+[30-Apr-2018 00:20:23 UTC] PHP Fatal error:  Class 'General' not found in /home/ajans/public_html/app/views/Front/Ne/index.php on line 1
+[01-May-2018 10:24:38 UTC] PHP Warning:  include_once(app/helper/General.php): failed to open stream: No such file or directory in /home/ajans/public_html/app/views/Front/Ne/index.php on line 1
+[01-May-2018 10:24:38 UTC] PHP Warning:  include_once(): Failed opening 'app/helper/General.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ajans/public_html/app/views/Front/Ne/index.php on line 1
+[01-May-2018 10:24:38 UTC] PHP Fatal error:  Class 'General' not found in /home/ajans/public_html/app/views/Front/Ne/index.php on line 1
+[03-May-2018 12:05:04 UTC] PHP Warning:  include_once(app/helper/General.php): failed to open stream: No such file or directory in /home/ajans/public_html/app/views/Front/Ne/index.php on line 1
+[03-May-2018 12:05:04 UTC] PHP Warning:  include_once(): Failed opening 'app/helper/General.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ajans/public_html/app/views/Front/Ne/index.php on line 1
+[03-May-2018 12:05:04 UTC] PHP Fatal error:  Class 'General' not found in /home/ajans/public_html/app/views/Front/Ne/index.php on line 1
